@@ -32,8 +32,6 @@ Before you begin, ensure you have:
    cd frontend
    npm install
    ```
-   ![image](https://github.com/user-attachments/assets/8c4f4330-730e-4be2-a37b-fadb4831dedd)
-
 
 ## 🔐 Configuration
 
@@ -163,5 +161,15 @@ npm run dev
 
 For security concerns, contact: [CONTACT_EMAIL]
 For general inquiries: [SUPPORT_EMAIL]
+
+4.Some Screenshots
+![Screenshot 2025-01-13 004246](https://github.com/user-attachments/assets/c173925f-2fcf-4933-9164-dd88b38e3b2c)
+<br/>
+![Screenshot 2025-01-13 004313](https://github.com/user-attachments/assets/8e815d19-4123-44dc-869a-6f2d59f5af45)
+<br/>
+![Screenshot 2025-01-13 004335](https://github.com/user-attachments/assets/d05d359e-ee96-416e-aac4-c16ea6fa4347)
+
+
+
 
 *Note: Replace placeholders in brackets with actual values before deployment.*
