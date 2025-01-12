@@ -35,21 +35,6 @@ Before you begin, ensure you have:
 
 ## 🔐 Configuration
 
-Create the following `.env` files:
-
-### Backend `.env`
-```env
-PORT=<port_number>
-MONG_URI=<your_mongodb_uri>
-JWT_SECRET=<your_jwt_secret>
-EMAIL=<your_email>
-EMAIL_PASSWORD=<your_app_password>
-SUPERKEY=<admin_access_key>
-CLOUDINARY_CLOUD_NAME=<cloud_name>
-CLOUDINARY_API_KEY=<api_key>
-CLOUDINARY_API_SECRET=<api_secret>
-```
-
 ### Frontend `.env`
 ```env
 VITE_API_URL=<backend_url>
