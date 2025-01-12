@@ -59,6 +59,25 @@ VITE_API_URL=<backend_url>
 │   └── index.html
 ```
 
+🖍️ Screenshots
+
+Home Page
+
+![Screenshot 2025-01-13 004335](https://github.com/user-attachments/assets/d05d359e-ee96-416e-aac4-c16ea6fa4347)
+
+Product Listing
+
+![Screenshot 2025-01-13 004246](https://github.com/user-attachments/assets/c173925f-2fcf-4933-9164-dd88b38e3b2c)
+
+Contact us
+
+![Screenshot 2025-01-13 004313](https://github.com/user-attachments/assets/8e815d19-4123-44dc-869a-6f2d59f5af45)
+
+Adding the perfume but only for Admin
+
+![image](https://github.com/user-attachments/assets/124010f8-ea13-4a4e-a5b3-361def4184bb)
+
+
 ## 🛡️ Security Features
 
 - JWT Authentication
