@@ -32,6 +32,8 @@ Before you begin, ensure you have:
    cd frontend
    npm install
    ```
+   ![image](https://github.com/user-attachments/assets/8c4f4330-730e-4be2-a37b-fadb4831dedd)
+
 
 ## 🔐 Configuration
 
