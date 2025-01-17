@@ -1,4 +1,3 @@
- // 3. Update your App.jsx with error boundary
 import { Routes, Route } from "react-router-dom";
 import React, { Suspense } from "react";
 import Login from "./components/Auth/Login";
@@ -13,6 +12,8 @@ import About from "./page/About";
 import Products from "./page/Products";
 import AdminDashboard from "./page/AdminDashboard";
 import ErrorBoundary from "./components/ErrorBoundary";
+import Feed from "./page/Feed";
+import EditFeed from "./components/EditFeed";
 
 function App() {
   return (
@@ -35,7 +36,9 @@ function App() {
           <Route path="contact" element={<Contact />} />
           <Route path="about" element={<About />} />
           <Route path="/products" element={<Products />} />
-          <Route path="/add-perfume" element={<AdminDashboard />} />
+          <Route path="/admin" element={<AdminDashboard />} />
+          <Route path="/feeds" element={<Feed />} />
+          <Route path="/feeds/edit/:id" element={<EditFeed />} />
         </Routes>
       </Suspense>
     </ErrorBoundary>

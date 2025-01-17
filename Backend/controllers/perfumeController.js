@@ -41,27 +41,6 @@ export const addPerfume = async (req, res) => {
     }
 };
 
-// export const deletePerfume = async (req, res) => {
-//     try {
-//         const perfume = await Perfume.findById(req.params.id);
-        
-//         if (!perfume) {
-//             return res.status(404).json({
-//                 success: false,
-//                 message: 'Perfume not found'
-//             });
-//         }
-
-//         const publicId = perfume.imgSrc.split('/').pop().split('.')[0];
-//         await cloudinary.uploader.destroy(`perfumes/${publicId}`);
-//         await Perfume.findByIdAndDelete(req.params.id);
-
-//         res.json({ success: true, message: 'Perfume deleted successfully' });
-
-//     } catch (error) {
-//         handleError(res, error, 'deleting perfume');
-//     }
-// };
 
 export const getAllPerfumes = async (req, res) => {
     try {

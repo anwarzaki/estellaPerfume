@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import AddPerfumeForm from "../components/AddPerfume";
 import Footer from "../components/Footer";
+import AddFeedForm from "../components/AddFeed";
 
 const AdminDashboard = () => {
   return (
@@ -19,7 +20,18 @@ const AdminDashboard = () => {
             View Products
           </Link>
         </div>
-        <AddPerfumeForm />
+
+        {/* Add Perfume Form */}
+        <div className="mb-8">
+          <h2 className="text-xl font-semibold mb-4">Add New Perfume</h2>
+          <AddPerfumeForm />
+        </div>
+
+        {/* Add Feed Form */}
+        <div className="mb-8">
+          <h2 className="text-xl font-semibold mb-4">Add New Feed</h2>
+          <AddFeedForm />
+        </div>
       </div>
       <Footer />
     </div>

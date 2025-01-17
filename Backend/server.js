@@ -5,17 +5,13 @@ import { connectDB } from './config/db.js';
 import authRoutes from './routes/authRoutes.js';
 import perfumeRoutes from './routes/perfumeRoutes.js';
 import contactRoutes from './routes/contactRoutes.js';
+import feedRoutes from './routes/feedRoutes.js';
 
 dotenv.config();
 connectDB();
 
 const app = express();
 
-// app.use(cors({
-//     origin: 'http://localhost:5173', 
-//     credentials: true
-//   }));
-// In your Express server
 
 app.use(cors({
   origin: ['http://localhost:5173', 'http://localhost:5000'], 
@@ -27,6 +23,7 @@ app.use(express.json());
 app.use('/api/auth', authRoutes);
 app.use('/api/perfume',perfumeRoutes);
 app.use('/api/contact', contactRoutes);
+app.use('/api/feeds',feedRoutes);
 
 const PORT = process.env.PORT || 5001 ;
 app.listen(PORT, () => {

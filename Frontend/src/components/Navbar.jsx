@@ -29,10 +29,11 @@ const Navbar = () => {
     { path: "/about", label: "About" },
     { path: "/contact", label: "Contact" },
     { path: "/products", label: "Products" },
+    { path: "/feeds", label: "Feeds" },
   ];
 
   // Admin-only links
-  const adminLinks = [{ path: "/add-perfume", label: "Add Perfume" }];
+  const adminLinks = [{ path: "/admin", label: "Admin Panel" }];
 
   // Combine links based on user role
   const navigationLinks = isAdmin ? [...baseLinks, ...adminLinks] : baseLinks;
